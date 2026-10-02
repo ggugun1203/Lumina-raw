@@ -1,0 +1,6 @@
+{
+  "name": "Lumina RAW",
+  "description": "Pro RAW photo editor with advanced Lightroom-style adjustments, AI tone transfer, aesthetic collage maker, and high quality JPG/DNG export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

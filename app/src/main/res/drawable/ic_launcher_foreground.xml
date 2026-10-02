@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Camera Lens Outer Ring -->
+    <path
+        android:pathData="M54,27 C68.91,27 81,39.09 81,54 C81,68.91 68.91,81 54,81 C39.09,81 27,68.91 27,54 C27,39.09 39.09,27 54,27 Z"
+        android:strokeWidth="3.2"
+        android:strokeColor="#FFC837" />
+
+    <!-- Inner Aperture Ring -->
+    <path
+        android:pathData="M54,34 C65.05,34 74,42.95 74,54 C74,65.05 65.05,74 54,74 C42.95,74 34,65.05 34,54 C34,42.95 42.95,34 54,34 Z"
+        android:fillColor="#181B22"
+        android:strokeWidth="1.5"
+        android:strokeColor="#4DFFFFFF" />
+
+    <!-- Aperture Blades (Stylized Hexagon Shutter) -->
+    <path
+        android:pathData="M54,40 L66,47 L66,61 L54,68 L42,61 L42,47 Z"
+        android:strokeWidth="1.8"
+        android:strokeColor="#FFB300" />
+
+    <!-- Core Lens Element with Gradient -->
+    <path
+        android:pathData="M54,43 C60.08,43 65,47.92 65,54 C65,60.08 60.08,65 54,65 C47.92,65 43,60.08 43,54 C43,47.92 47.92,43 54,43 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="46"
+                android:startY="46"
+                android:endX="62"
+                android:endY="62"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00D2FF" />
+                <item android:offset="0.6" android:color="#3A7BD5" />
+                <item android:offset="1.0" android:color="#1A237E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Lens Specular Glint Reflection -->
+    <path
+        android:pathData="M48,46 C50,44.5 53,44 56,44.5 C54.5,46 51,47 48,46 Z"
+        android:fillColor="#80FFFFFF" />
+
+    <!-- Small RAW Badge at bottom -->
+    <path
+        android:pathData="M40,75 L68,75 A2,2 0 0 1 70,77 L70,82 A2,2 0 0 1 68,84 L40,84 A2,2 0 0 1 38,82 L38,77 A2,2 0 0 1 40,75 Z"
+        android:fillColor="#FFC837" />
+
+    <!-- Text RAW silhouette cutout on badge -->
+    <path
+        android:pathData="M43,77 L45.5,77 C46.3,77 47,77.5 47,78.2 C47,78.9 46.3,79.5 45.5,79.5 L43,79.5 Z M43,77 L43,82 M45,79.5 L46.8,82 M50,82 L52,77 L54,82 M50.7,80.5 L53.3,80.5 M57,77 L58.2,82 L59.5,78.5 L60.8,82 L62,77"
+        android:strokeWidth="0.9"
+        android:strokeColor="#12151B" />
+</vector>
